@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.BG{
+    padding: 50px;
+    background-color: cornflowerblue;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    font-size: 60px;
+    font-family: fantasy;
+    color: hotpink;
+    text-align: center;
+}
+
+.search{
+    width: 100%;
+    height: 45px;
+    background-color: azure;
+    margin-left: 50;
+    overflow: hidden;
+  
+
+}
+.search_field{
+
+width: 40%;
+    height: 40px;
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 200;
+   text-indent: 40px;
+   display: inline-block;
+   vertical-align: top;
+   outline: none;
+   border: none;
+   
+
+}
+
+ .search_button{
+    border: none;
+    width: 10% ;
+    height: 50px;
+    background-color: azure;
+
+}
+
+.search_icon{
+    width: 45px;
+}
+
+.songs{
+    width: 100%;
+    height: auto;
+    /*background-color: brown;*/
+    margin-top: 35px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    margin-left: 8%;
+
+}
+
+.song{
+    width: 20%;
+    padding-top: 40px; 
+    padding-bottom: 20px;
+    background-color: white;
+    display: inline-block;
+
+}
+
+.song_img{
+    width: 90%;
+    height: 400px;
+   /* background-color: yellow;*/
+    margin-left: 5%;
+    overflow: hidden;
+
+}
+.song_player{
+    width: 70%;
+    height: 100px;
+    /*background-color: violet;*/
+    margin-left:8%;
+    margin-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: 100;
+
+}
+
+.song_thumbnail{
+     width: 100%;
+     transform: perspective();
+}
